@@ -48,6 +48,8 @@
 @property (nonatomic, assign) BOOL disallowoverscroll;
 @property (nonatomic, copy) NSString* beforeload;
 
+@property (nonatomic, copy) NSString* viewbackgroundcolor;
+
 + (CDVInAppBrowserOptions*)parseOptions:(NSString*)options;
 
 @end
