@@ -48,6 +48,8 @@
         self.toolbarcolor = nil;
         self.toolbartranslucent = YES;
         self.beforeload = @"";
+     
+        self.viewbackgroundcolor = nil;
     }
 
     return self;
